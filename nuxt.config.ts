@@ -7,5 +7,6 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  modules: ['@nuxtjs/i18n'],
   },
 })
