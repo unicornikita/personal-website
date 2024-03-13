@@ -55,7 +55,7 @@ const changeLanguage = (language: string) => {
                 </div>
                 <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="hidden sm:ml-6 sm:block w-full">
-                        <div class="flex w-full">
+                        <div class="flex w-full items-center">
                             <a href="#about" class="hover:bg-pink-500 text-white rounded-md px-3 py-2 text-sm font-medium"
                                 aria-current="page">{{ $t('aboutMe') }}</a>
                             <a href="#work-experience"
@@ -74,9 +74,10 @@ const changeLanguage = (language: string) => {
                             <div class="flex-1"></div>
                             <div class="text-black hover:text-black text-sm font-medium">
                                 <div class="flex flex-col justify-end items-end">
-                                    <div class="cursor-pointer text-gray-200 rounded-md text-sm font-medium"
-                                        v-for="language in languages" @click="changeLanguage(language.name)">{{
-                            language.text }} <span class="fi" :class="'fi-' + language.flag"></span> </div>
+                                    <div class="cursor-pointer text-gray-200 rounded-md text-sm font-medium flex items-center "
+                                        v-for="language in languages" @click="changeLanguage(language.name)">
+                                        <span v-if="locale == language.name" class="w-2 h-2 mr-1 rounded-full bg-slate-200"></span> {{
+                            language.text }} <span class="fi ml-1" :class="'fi-' + language.flag"></span> </div>
                                 </div>
                             </div>
                         </div>
