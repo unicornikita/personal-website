@@ -1,6 +1,6 @@
 <template>
   <div id="home" class="flex flex-col items-center justify-center min-h-screen">
-    <img class="rounded-full h-auto max-w-xs shadow-xl mb-6" src="/assets/images/profile.jpg" alt="image description">
+    <img class="rounded-full h-auto max-w-xs shadow-xl mb-6" src="/assets/images/profile.jpeg" alt="image description">
     <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight  md:text-5xl lg:text-6xl text-white">
       Nikita Galuh Kapušin</h1>
     <p class="mb-4 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-gray-200">Flutter
