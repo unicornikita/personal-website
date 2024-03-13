@@ -1,3 +1,4 @@
+
 <template>
   <NavigationBar></NavigationBar>
   <div class="flex flex-col items-center justify-center bg-pink-800 px-8">
