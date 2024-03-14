@@ -12,6 +12,7 @@
   "dependencies": {
     "flag-icons": "^7.2.0",
     "nuxt": "^3.10.3",
+    "nuxt-mail": "^4.0.3",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
   },
