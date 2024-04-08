@@ -26,16 +26,22 @@
     </div>
 </template>
 <script setup lang="ts">
-const { $mail } = useNuxtApp();
 
 const email = ref('');
 const message = ref('');
 
-const sendMail = () => {
-  $mail.send({
-    from: email.value,
-    subject: 'New message from your website',
-    text: `${email.value}\n${message.value}`,
-})
+const sendMail = async () => {
+  await $fetch("/api/mail", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      email: email.value,
+      message: message.value,
+    }),
+  });
+  email.value = "";
+  message.value = "";
 }
 </script>
