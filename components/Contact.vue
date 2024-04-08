@@ -19,7 +19,7 @@
             placeholder="Enter your message" required></textarea>
         </div>
 
-        <button type="submit" @click="sendMail"
+        <button type="submit" @click.prevent="sendMail"
           class="mb-6 mx-auto inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-pink-950 rounded-lg hover:bg-pink-500 focus:ring-4">
           {{ $t('messageButton') }}</button>
       </form>
