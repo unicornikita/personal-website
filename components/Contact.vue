@@ -5,7 +5,7 @@
         {{ $t('getInTouch') }}</h2>
         <p class="mb-4 text-lg font-normal text-gray-200 text-justify">{{ $t('contactSubtitle') }} <a href="mailto: nikitagaluh@kapusin.si"><b>nikitagaluh@kapusin.si</b></a>.</p>
       
-        <form class="w-full mx-auto flex flex-col">
+        <form class="w-full mx-auto flex flex-col" @submit.prevent="">
         <div class="mb-4">
           <label for="email" class="block mb-2 text-sm font-medium  text-white">{{ $t('email') }}</label>
           <input type="email" id="email" v-model="email"
@@ -19,13 +19,16 @@
             placeholder="Enter your message" required></textarea>
         </div>
 
-        <button type="submit" @click.prevent="sendMail"
+        <button type="submit" @click="sendMail"
           class="mb-6 mx-auto inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-pink-950 rounded-lg hover:bg-pink-500 focus:ring-4">
           {{ $t('messageButton') }}</button>
+        <ConfirmationAlert v-model:isOpen="isOpen"></ConfirmationAlert>
       </form>
     </div>
 </template>
 <script setup lang="ts">
+
+const isOpen = defineModel<boolean>();
 
 const email = ref('');
 const message = ref('');
@@ -43,5 +46,6 @@ const sendMail = async () => {
   });
   email.value = "";
   message.value = "";
+  isOpen.value = true;
 }
 </script>

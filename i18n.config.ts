@@ -21,6 +21,8 @@ export default defineI18nConfig(() => ({
         email: 'Your Email',
         message: 'Your Message',
         messageButton: 'Message',
+        alertTitle: 'Message Sent!',
+        alertMessage: 'Your message has been sent successfully. Expect a reply within 48 hours. Thank you!'
       },
       slo: {
         aboutMe: 'O Meni',
@@ -41,6 +43,8 @@ export default defineI18nConfig(() => ({
         email: 'Vaš E-naslov',
         message: 'Vaše Sporočilo',
         messageButton: 'Pošlji',
+        alertTitle: 'Sporočilo Poslano!',
+        alertMessage: 'Vaše sporočilo je bilo uspešno poslano. Odgovor pričakujte v roku 48 ur. Hvala!'
       }
     }
   }))
