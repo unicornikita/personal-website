@@ -12,7 +12,7 @@
                 </div>
                 <h3 class="mb-2 text-2xl font-extrabold leading-none tracking-tight md:text-2xl lg:text-3xl text-white">
                     {{ $t('mobileDevelopment') }}</h3>
-                <p class="mb-4 text-lg font-normal text-gray-200">Flutter, Kotlin or Swift</p>
+                <p class="mb-4 text-lg font-normal text-gray-200">Flutter, Kotlin, Swift</p>
             </div>
             <div class="flex flex-col w-full md:w-1/3 items-center justify-center">
                 <div class="mb-4">
