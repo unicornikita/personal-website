@@ -27,6 +27,13 @@ body {
 <script setup lang="ts">
 useHead({
   title: "Nikita Galuh Kapušin",
+  link: [
+    {
+      rel: "icon",
+      type: "image/x-icon",
+      href: "/favicon.ico"
+    }
+  ],
   meta: [
     {
       name: "description",
