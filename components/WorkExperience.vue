@@ -4,7 +4,7 @@
         {{ $t('workExperience') }}</h2>
       <ul class="list-disc mb-4">
         <li class="text-white text-lg lg:text-lg font-normal">1. 2. 2024 - {{ $t('present') }}: Freelance @ GaluhTech, Nikita Galuh Kapušin s.p.</li>
-        <li class="text-white text-lg lg:text-lg font-normal">11. 6. 2023 - 10. 8. 2024: Flutter Developer @ GoOpti</li>
+        <li class="text-white text-lg lg:text-lg font-normal">11. 6. 2023 - 10. 7. 2024: Flutter Developer @ GoOpti</li>
         <li class="text-white text-lg lg:text-lg font-normal">16. 9. 2023 - {{ $t('present') }}: Freelance @ DigiEd</li>
         <li class="text-white text-lg lg:text-lg font-normal">1. 8. 2022 - 30. 4. 2023: Mobile and Web Developer @ Achtzig20</li>
         <li class="text-white text-lg lg:text-xl font-normal">31. 3. 2022 - 1. 5. 2022: Web Developer @ bPlanet d.o.o</li>
