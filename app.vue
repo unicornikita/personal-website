@@ -37,7 +37,7 @@ useHead({
   meta: [
     {
       name: "description",
-      content: "Nikita Galuh's personal portfolio"
+      content: "Hi! I am Nikita Galuh, primarily a Flutter Developer based in Slovenia. My interest in computer science and programming sparked in my early teens with inspiration from playing video games after school and relatives, who studied computer science. In August 2024 I graduated from University of Ljubljana, Faculty of Computer and Information Science."
     },
     {
       name: "keywords",
@@ -57,11 +57,11 @@ useHead({
     },
     {
       name: "og:title",
-      content: "Nikita Galuh"
+      content: "Nikita Galuh Kapušin"
     },
     {
       name: "og:description",
-      content: "Nikita Galuh's personal portfolio"
+      content: "Hi! I am Nikita Galuh, primarily a Flutter Developer based in Slovenia. My interest in computer science and programming sparked in my early teens with inspiration from playing video games after school and relatives, who studied computer science. In August 2024 I graduated from University of Ljubljana, Faculty of Computer and Information Science."
     },
     {
       name: "og:site_name",
