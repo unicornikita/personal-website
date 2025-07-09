@@ -4,7 +4,7 @@
       <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white">
         {{ $t('getInTouch') }}</h2>
         <p class="mb-4 text-lg font-normal text-gray-200 text-justify">{{ $t('contactSubtitle') }} <a href="mailto: nikitagaluh@kapusin.si"><b>nikitagaluh@kapusin.si</b></a>.</p>
-      
+        <p class="mb-4 text-base font-bold text-gray-200 text-justify">{{ $t('contactWarning') }}</p>
         <form class="w-full mx-auto flex flex-col" @submit.prevent="">
         <div class="mb-4">
           <label for="email" class="block mb-2 text-sm font-medium  text-white">{{ $t('email') }}</label>
