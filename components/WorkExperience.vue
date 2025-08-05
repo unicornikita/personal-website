@@ -3,6 +3,8 @@
       <h2 class="mb-6 text-4xl font-extrabold leading-none tracking-tight  md:text-5xl lg:text-6xl text-white">
         {{ $t('workExperience') }}</h2>
       <ul class="list-disc mb-4">
+
+        <li class="text-white text-lg lg:text-lg font-normal">4. 8. 2025 - {{ $t('present') }}: Flutter Developer @ E-RAČUNI, d.o.o.</li>
         <li class="text-white text-lg lg:text-lg font-normal">1. 2. 2024 - {{ $t('present') }}: Freelance @ GaluhTech, Nikita Galuh Kapušin s.p.</li>
         <li class="text-white text-lg lg:text-lg font-normal">11. 6. 2023 - 10. 7. 2024: Flutter Developer @ GoOpti</li>
         <li class="text-white text-lg lg:text-lg font-normal">16. 9. 2023 - 1. 5. 2025: Freelance @ DigiEd</li>
