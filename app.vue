@@ -20,7 +20,7 @@ body {
 
 <script setup lang="ts">
 useHead({
-  title: "Nikita Galuh Kapušin",
+  title: "Nikita Galuh Kapušin Kocjančič",
   link: [
     {
       rel: "icon",
@@ -39,7 +39,7 @@ useHead({
     },
     {
       name: "author",
-      content: "Nikita Galuh Kapušin"
+      content: "Nikita Galuh Kapušin Kocjančič"
     },
     {
       name: "viewport",
@@ -51,7 +51,7 @@ useHead({
     },
     {
       name: "og:title",
-      content: "Nikita Galuh Kapušin"
+      content: "Nikita Galuh Kapušin Kocjančič"
     },
     {
       name: "og:description",
@@ -59,7 +59,7 @@ useHead({
     },
     {
       name: "og:site_name",
-      content: "Nikita Galuh Kapušin"
+      content: "Nikita Galuh Kapušin Kocjančič"
     },
     {
       name: "og:type",
